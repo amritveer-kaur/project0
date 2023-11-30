@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div>
+            <ul class="hex">
+                <li id="hex-item"> <a href="index.html">Google Search</a></li>
+            </ul>
+        </div>
+
+        <div class="advanced-search">
+            Advanced Search
+        </div>
+
+        <div class="hr"></div>
+
+        <div class="ad-text">
+                Find pages with...
+        </div>
+            
+        <form action="https://www.google.com/search">
+            <div class="row-input">
+                <div class="left">
+                    <p class="para">all these words:</p>
+                </div>
+                <div class="right">
+                    <input type="text" name="as_q" class="box">
+                </div>
+            </div>
+
+            <div class="row-input">
+                <div class="left">
+                    <p class="para">this exact word or phrase:</p>
+                </div>
+                <div class="right">
+                    <input type="text" name="as_epq" class="box">
+                </div>
+            </div>
+
+            <div class="row-input">
+                <div class="left">
+                    <p class="para">any of these words:</p>
+                </div>
+                <div class="right">
+                    <input type="text" name="as_oq" class="box">
+                </div>
+            </div>
+
+            <div class="row-input">
+                <div class="left">
+                    <p class="para">none of these words:</p>
+                </div>
+                <div class="right">
+                    <input type="text" name="as_eq" class="box">
+                </div>
+            </div>
+            <div class="hr"></div>
+                <input type="submit" value="Advanced Search" class="button">
+        </form>
+    </body>
+</html>
